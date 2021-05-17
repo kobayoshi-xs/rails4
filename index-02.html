@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>電卓</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="main-02.css">
+    </head>
+    <body>
+        <div class="button-area">
+        <input type = text class = main>
+        <div class = "button-list">
+            <button onclick="app('8')">7</button>
+            <button onclick="app('9')">8</button>
+            <button onclick="app('10')">9</button>
+            <button id="plus" onclick="sum('0')">+</button>
+            <button onclick="app('5')">4</button>
+            <button onclick="app('6')">5</button>
+            <button onclick="app('7')">6</button>
+            <button id="subtraction" onclick="sum('1')">-</button>
+            <button onclick="app('2')">1</button>
+            <button onclick="app('3')">2</button>
+            <button onclick="app('4')">3</button>
+            <button onclick="sum('2')">✖️</button>
+            <button onclick="app2('1')">0</button>
+            <button onclick="app2('0')">00</button>
+            <button onclick="app3('4')">.</button>
+            <button id="division" onclick="sum('3')">➗</button>
+            <button onclick="cle('')">AC</button>
+            <button onclick="calc('')">=</button>
+        </div>
+        </div>
+        <!-- javascript -->
+        <script type="text/javascript" src="main-02.js" charset="UTF-8"></script>
+    </body>
+</html>

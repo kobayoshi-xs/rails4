@@ -1,0 +1,44 @@
+.button-area {
+  border: 1px solid black;
+  width: 400px;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(85deg, #94cb74, #738851);
+  border: 4px groove #738851;
+  box-shadow: 4px 4px 10px; 
+  border-radius: 20px;
+}
+
+input {
+  padding: 8px 5px;
+  border: 5px inset #888;
+  background-color: #80796c;
+  font-size: 30px;
+  text-align: right;
+}
+
+button {
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 20px;
+  background-image: linear-gradient(85deg, #fff, #ddd);
+  border: 4px groove #888;
+  box-shadow: 2px 2px 2px;
+  cursor: pointer;
+}
+
+button:active {
+  background-image: linear-gradient(85deg, #888, #888);
+  border: 4px groove #00005d;
+  box-shadow: none;
+}
+
+.button-list {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  gap: 5px;
+  margin-top: 30px;
+}
